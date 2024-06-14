@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width,initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title> ΑΔΙΣΕ: ΝΤΟΜΙΝΟ</title>
+
+    <!--Bootstrap core CSS-->
+    <link href="bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/mydominoes.css" rel="stylesheet">
+	<script src="bootstrap-4.3.1-dist/js/jquery-3.2.1.min.js"></script>
+    <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+	<script src="js/mydominoes.js"></script>
+    
+</head>
+
+<body>
+
+<div style="text-align: center" id="game">
+    <h1 id="head" style="text-align: center" >DOMINO</h1>
+    <label style="font-weight: bold;" for="username">Username: </label>
+    <input id="username"><br>
+    <label style="font-weight: bold;" for="player_number">Select Number: </label>
+    <select id="player_number">
+        <option value="1">Number 1</option>
+        <option value="2">Number 2</option>
+    </select>
+
+<button  id="login">LOGIN</button>
+
+</div >
+<div style="text-align: center" id="tiles">
+    
+</div>
+
+<div id="game_info">
+</div>
+
+<div style=" position: absolute;
+bottom:10%;
+left:25%;
+right:25%" id="player_tiles">
+</div>
+
+
+<div id="game_info"></div>
+<div id="null_tiles" style="text-align: right;"></div>
+<div id="opponent_tiles" style=" position: absolute;
+top:5%;
+left:25%;
+right:25%">
+</div>
+
+<div id="table" style=" position: absolute;
+top:50%;
+right:50%">
+
+</div>
+</body>
+</html>
